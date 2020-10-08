@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'montserrat', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero {
+  width: 60vw;
+  height: 80vh;
+  border-radius: 2em;
+  padding: 2em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0.3em 0.3em 0.1em rgba(191, 191, 191, 0.521);
+          box-shadow: 0.3em 0.3em 0.1em rgba(191, 191, 191, 0.521);
+  border: 5px solid silver;
+}
+
+.hero .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 2em;
+  width: 100%;
+  height: 10%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+}
+
+.hero .footer i {
+  font-size: 1.5em;
+  margin: .3em;
+  padding: .2em;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.hero .footer i:nth-child(1) {
+  color: #E1306C;
+  border: 2px solid #E1306C;
+}
+
+.hero .footer i:nth-child(2) {
+  color: #3b5998;
+  border: 2px solid #3b5998;
+}
+
+.hero .footer i:nth-child(3) {
+  color: #cb2027;
+  border: 2px solid #cb2027;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 1em;
+}
+
+.menu .icon {
+  width: 100%;
+  height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu .icon i {
+  padding: .5em;
+  border: 3px solid black;
+  border-radius: 50%;
+  font-size: 1.5em;
+}
+
+.menu .icon h3 {
+  padding: .5em;
+}
+
+.menu .nav-bar {
+  width: 100%;
+  height: 100%;
+  -webkit-box-flex: 7;
+      -ms-flex: 7;
+          flex: 7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.menu .nav-bar h3 {
+  margin: .3em;
+}
+
+.menu .nav-bar h3:nth-child(1) {
+  color: #e22a77;
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 2em;
+  width: 100%;
+  height: 80%;
+  -webkit-box-flex: 9;
+      -ms-flex: 9;
+          flex: 9;
+  padding: 1em;
+  background: url(3.jpg) bottom no-repeat;
+  background-size: cover;
+}
+
+.banner .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 30%;
+  height: 50%;
+  background: #faf8f0;
+  padding: 3em;
+  border-radius: 2em 0 2em 2em;
+}
+
+.banner .left h1 {
+  font-size: 3em;
+  line-height: .8em;
+}
+
+.banner .left .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1em;
+}
+
+.banner .left .box button {
+  width: 8em;
+  margin-top: 1em;
+  margin: .2em;
+  padding: .5em 2em;
+  border-radius: .5em;
+  text-transform: uppercase;
+  background: #4ebdb7;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.banner .left .box button:nth-child(2) {
+  background: transparent;
+  border: 3px solid #4ebdb7;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
